@@ -209,7 +209,7 @@ button {
     height: 225px;
     width: 225px;
     border-radius: 125px;
-    background: url('./assets/img/nappertp.png') no-repeat;
+    background: url('./assets/img/nappert.gif') no-repeat;
     background-size: 110%;
     background-position: center;
     border: 8px solid #955fc8;
@@ -490,4 +490,14 @@ footer>.footer_container>section:last-child>p.expl {
 	position: absolute;
 	bottom: 12px;
 	right: 12px;
+}
+
+.btn_up {
+	display: none;
+	position: fixed;
+	bottom: 12px;
+	right: 12px;
+	background-color: #ffffff;
+	outline: #6110ad 1px solid;
+	color: #6110ad;
 }

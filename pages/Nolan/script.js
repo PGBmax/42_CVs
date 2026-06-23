@@ -2,6 +2,10 @@ let menu_status = 0;
 const menu_list = document.querySelector('#nav_menu_list');
 const button_menu = document.querySelector('#button_menu');
 
+function top_btn() {
+	window.scrollTo(0, 0);
+}
+
 function open_menu(n) {
     if (n != -1) {
         if (n == 0) {
@@ -112,3 +116,12 @@ window.addEventListener('hashchange', () => {
     }, 200);
     
 });
+
+window.addEventListener('scroll', () => {
+	let btnup = document.querySelector(".btn_up");
+	if (window.scrollY > 50) {
+		btnup.style.display = "block";
+	} else {
+		btnup.style.display = "none";
+	}
+})
