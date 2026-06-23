@@ -1,0 +1,186 @@
+html
+{
+	scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar
+{
+    width: 0px;
+}
+
+body
+{
+	max-width: 964px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: -15px;
+	background-color: #a2f0f0;
+	overflow-x: hidden;
+}
+
+img
+{
+	margin-bottom: -10px;
+}
+
+.sidebar
+{
+	height: 100vh;
+	width: 170px;
+	z-index: 1;
+	top: 0;
+	left: auto;
+	position: fixed;
+	overflow-x: hidden;
+	background-color: #dfecec;
+	padding-top: 30px;
+}
+
+.sidebar > a
+{
+	margin-left: 10px;
+	padding: 10px 0px 10px 5px;
+	width: 120px;
+  	text-decoration: none;
+	font-size: 20px;
+	color: #02c594;
+	display: block;
+}
+
+.sidebar > a:hover
+{
+	padding: 7.5px 0px 7.5px 5px;
+	font-size: 25px;
+	border-radius: 15px;
+	background-color: #bad4d4;
+	color: #02926e;
+}
+
+.main
+{
+	height: 100%;
+	width: 100% - 170px;
+	padding-left: 170px;
+	background-color: #7afdfe;
+	top: 0;
+}
+
+.About
+{
+	color: rgb(16, 145, 219);
+	display: flex;
+}
+
+.About > span
+{
+	margin: 20px;
+	margin-top: 50px;
+	width: 50%;
+}
+
+.About > span > h1
+{
+	padding: 1px;
+}
+
+.photo
+{
+	display: block;
+	margin-right: 0;
+	margin-left: auto;
+}
+
+.Experience
+{
+	width: 100%;
+	background-color: #7afdfe;
+	/* background-color: rgb(245, 114, 114); */
+}
+
+.Experience > div
+{
+	display: flex;
+	/* background-color: rgb(13, 122, 185); */
+}
+
+.Experience > div > div
+{
+	width: 50%;
+	padding-left: 10px;
+	/* background-color: rgb(70, 149, 196); */
+}
+
+.Experience > div > div > ul > li > h4:nth-child(1)
+{
+	margin-bottom: 1px;
+}
+
+.Experience > div > div > ul > li > h4:nth-child(2)
+{
+	margin: 1px;
+	padding-left: 50px;
+}
+
+.Experience > div > div > ul > li > a
+{
+	margin-left: 20px;
+}
+
+.Experience > div > div > ul > li > ul
+{
+	margin-left: 10px;
+}
+
+.Portfolio
+{
+	height: fit-content;
+	width: 100%;
+	display: flex;
+}
+
+.Portfolio > div
+{
+	margin: 2.5%;
+	max-width: 20%;
+	height: 150px;
+	background-color: rgb(90, 194, 255);
+}
+
+.Portfolio > div:hover {
+  transform: scale(125%);
+  cursor: pointer;
+}
+
+.Portfolio > div > h2
+{
+	margin: 1px;
+	margin-top: 5px;
+    font-size: min(24px, 2.5vw);
+}
+
+.Portfolio > div > ul
+{
+	padding-left: 25px;
+    font-size: min(15px, 1.5vw);
+}
+
+.Portfolio > div > img
+{
+	width: 20px;
+}
+
+.Contact
+{
+	height: fit-content;
+	width: 100%;
+	display: flex;
+	padding-top: 30px;
+}
+
+.Contact > img
+{
+	margin: auto;
+	height: 200px;
+	cursor: pointer;
+}
