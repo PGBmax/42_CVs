@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Lisa Depenne">
+	<title>Lisa's cv</title>
+	<link rel="shortcut icon" href="img/favicon.png">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/profil.css">
+	<link rel="stylesheet" href="css/card.css">
+	<link rel="stylesheet" href="css/experiences.css">
+	<link rel="stylesheet" href="css/contact.css">
+</head>
+
+<body>
+	<nav class="navbar">
+		<a href="#profil">Profil</a>
+		<a href="#experiences">Experiences</a>
+		<a href="#contact">Contact</a>
+		<a href="raccoon/index.html">Just I can</a>
+	</nav>
+	<article id="profil">
+		<div class="card">
+				<div class="incard">
+					<div class="card-face front">
+						<div class="card-content">
+							<img src="img/favicon.png" alt="raccoon">
+						</div>
+					</div>
+					<div class="card-face back">
+						<div class="card-content">
+							<p>Pas touche au raccoon 😠</p>
+						</div>
+					</div>
+				</div>
+		</div>
+		<h1>Profil</h1>
+		<div class="profil-content">
+			<img class="face" src="img/LisaParRachel.png" alt="Lisa">
+			<div class="profil-info">
+				<h2>Lisa</h2>
+				<h3>dev</h3>
+				<p>Bonjour bonjour, je ne sais pas trop quoi ecrire, il me faut juste un peu de text pour que ma page de
+					soit pas trop vide.</p>
+			</div>
+		</div>
+	</article>
+	<article id="experiences">
+		<div class="title">
+			<h1>Experiences</h1>
+			<h2>for 42</h2>
+		</div>
+		<div class="experiences-content">
+			<section>
+				<h3>C</h3>
+				<h4>push_swap</h4>
+				<p>The aim of this project is to sort a set of values in ascending order. To do this, we can only use a
+					limited number of functions and two memory stacks. This project uses linked lists to store integers
+					and manipulate them.</p>
+				<a href="https://github.com/asil-1/push_swap" target="_blank">github: push_swap</a>
+			</section>
+			<section>
+				<h3>C</h3>
+				<h4>so_long</h4>
+				<p>The goal is to create a small 2D game. Goal of the game: collect all the collectibles while avoiding
+					enemies before going to bed. The programme must verify that the map is valid. That is to say: it
+					must only contain authorised characters, the map must be rectangular and surrounded by walls. All
+					collectables must be reachable, as must the exit. There can only be one exit and one player. There
+					must be at least one collectable. It is possible to add enemies.</p>
+				<a href="https://github.com/asil-1/so_long" target="_blank">github: so_long</a>
+			</section>
+			<section>
+				<h3>C</h3>
+				<h4>philosopher</h4>
+				<p>The aim of this project is to learn how to use threads and mutexes. Threads exist within a single
+					parent process; they enable programming to be approached not sequentially, but concurrently. Mutexes
+					are used to ‘control’ these threads using the principle of mutual exclusion. They function like
+					locks that grant access to data only if it is not already in use.</p>
+				<a href="https://github.com/asil-1/philo/tree/main/philo" target="_blank">github: philosopher</a>
+			</section>
+			<section>
+				<h3>C</h3>
+				<h4>philosopher bonus</h4>
+				<p>You must keep the philosophers alive. They must eat, think and sleep every day. To eat, they have as
+					many forks as there are philosophers, but they cannot eat unless they are holding two forks. They
+					must therefore pick them up and put them down before and after eating. I use one thread for each
+					processes to check the death. This time I will use semaphores instead of mutex.</p>
+				<a href="https://github.com/asil-1/philo/tree/main/philo_bonus" target="_blank">github: philosopher
+					bonus</a>
+			</section>
+			<section>
+				<h3>C++</h3>
+				<h4>piscine Cpp</h4>
+				<p>The aim is to familiarise pupils with Year 1 through a variety of exercises.</p>
+				<a href="https://github.com/asil-1/CppModule00" target="_blank">github: CppModule00</a>
+				<a href="https://github.com/asil-1/CppModule01" target="_blank">github: CppModule01</a>
+			</section>
+		</div>
+	</article>
+	<article id="contact">
+		<h1>Contact</h1>
+		<p>mail: ldepenne@student.42angouleme.fr</p>
+		<div class="button">
+			<a id="raccoonAttack" href="#">Click here for a raccoon attack</a>
+		</div>
+	</article>
+	<script src="script.js"></script>
+</body>
+
+</html>

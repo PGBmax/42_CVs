@@ -1,0 +1,102 @@
+body {
+	margin: 0;
+	font-family: Poppins, sans-serif;
+}
+
+.parallax-container {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-attachment: fixed;
+	background-image: url(img/cool_raccoon.jpg);
+	background-position: center;
+	background-size: cover;
+	row-gap: 4rem;
+	text-align: center;
+}
+
+.welcome {
+	background-color: rgba(21, 48, 10, 0.45);
+	backdrop-filter: blur(1.5px);
+	padding: 1rem 2.5rem;
+	color: white;
+	text-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+.parallax-container2 {
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 6rem 0;
+	background-image: url(img/car_raccoon.jpg);
+	gap: 1.6em;
+}
+
+h1 {
+	font-size: 3rem;
+	font-weight: 700;
+}
+
+p {
+	max-width: 52ch;
+	padding: 1em;
+	line-height: 1.5;
+}
+
+h3 {
+	margin-top: 1em;
+	font-size: 1.6rem;
+	font-weight: 700;
+}
+
+.card {
+	display: flex;
+	width: 320px;
+	height: 600px;
+	flex-direction: column;
+	padding-bottom: 1rem;
+	border-radius: 0.5em;
+	background-color: rgba(182, 157, 123, 0.7);
+	box-shadow: 0 29px 38px -15px rgb(0 0 0 / 43%);
+}
+
+.card p {
+	flex: 1;
+	overflow: auto;
+}
+
+.card-img {
+	width: 100%;
+	height: 200px;
+	border-radius: 0.3em;
+	background-position: center;
+	background-size: cover;
+}
+
+.card:nth-of-type(1) .card-img {
+	background-image: url(img/basket.jpg);
+}
+
+.card:nth-of-type(2) .card-img {
+	background-image: url(img/distrib.jpg);
+}
+
+.card:nth-of-type(3) .card-img {
+	background-image: url(img/andcat.jpg);
+}
+
+.card:nth-of-type(4) .card-img {
+	background-image: url(img/nooo.jpg);
+}
+
+a {
+	display: flex;
+	justify-content: center;
+	background-color: rgb(182, 157, 123);
+	text-decoration: none;
+	color: white;
+	padding: .5em;
+	font-size: large;
+	background-attachment: fixed;
+}

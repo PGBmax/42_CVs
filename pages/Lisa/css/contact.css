@@ -1,0 +1,35 @@
+#contact {
+	position: relative;
+	background-color: rgb(221, 255, 253);
+	margin-left: 200px;
+	margin: 2em 2em 2em calc(200px + 2em);
+	border-radius: 5px;
+	padding: 2rem;
+}
+
+#contact h1 {
+	margin: 0 0 0 .3em;
+	color: #f8f1e2;
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: #ec703e;
+	font-size: 4em;
+}
+
+#contact p {
+	display: flex;
+	justify-content: center;
+	color: darkslateblue;
+}
+
+.button {
+	display: flex;
+	justify-content: center;
+	margin: 1em;
+}
+
+.button a {
+	text-decoration: none;
+	font-size: 1em;
+	font-weight: bold;
+	color: #ec703e;
+}

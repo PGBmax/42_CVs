@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>CV - nappert</title>
+</head>
+
+<body>
+	<div id="navbar" class="navbar">
+		<a href="/" id="title" class="button">Nolan APPERT</a>
+		<a onclick="change_page(1)" href="#1" id="btn_part1" class="button btn_1">Ça... c'est moi !</a>
+		<a onclick="change_page(2)" href="#2" id="btn_part2" class="button btn_2">Mes éxperiences et compétences</a>
+		<a onclick="change_page(3)" href="#3" id="btn_part3" class="button btn_3">Me contacter</a>
+	</div>
+	<div id="navbar" class="navbar_phone">
+		<a href="/" id="title" class="button">Nolan APPERT</a>
+		<button id="button_menu" class="button_menu button" onclick="open_menu(-1)"><img class="icon_menu"
+				src="./assets/img/menu.svg" height="24px" width="24px" /></button>
+	</div>
+	<div id="nav_menu_list" class="navbar_phone_menu">
+		<a onclick="change_page(1)" href="#1" id="btn_part1" class="button btn_1">Ça... c'est moi !</a>
+		<a onclick="change_page(2)" href="#2" id="btn_part2" class="button btn_2">Mes éxperiences et compétences</a>
+		<a onclick="change_page(3)" href="#3" id="btn_part3" class="button btn_3">Me contacter</a>
+	</div>
+	<div id="fullpage">
+		<div id="container" class="container">
+			<div id="part1" class="parts">
+				<div onclick="window.location.href = '#egg'" class="nappert-img"></div>
+				<h1>Nolan Appert</h1>
+				<span>Développeur - Etudiant à 42Angoulême</span>
+			</div>
+			<div id="part2" class="parts">
+				<h2>Mes éxperiences et compétences</h2>
+				<br />
+				<section class="bgd">
+					<h3>Mes éxperiences<br />(Ouai nan j'ai pas vraiment d'éxperience enfaite...)</h3>
+					<ul class="tl_list">
+						<section class="tl_section">
+							<span class="tl_date">29/09/2025<br />05/10/2025</span>
+							<span class="tl_dot"></span>
+							<li class="tl_elem">
+								<h4 class="tl_title">Equipier commercial aux rayons frais / surgelés</h4>
+								<span class="tl_place">METRO • Angoulême</span>
+								<p class="tl_desc">Mise en rayon, facing (mon dos est parti aux Maldives mais à part ça
+									c'était ok)</p>
+							</li>
+						</section>
+						<section class="tl_section">
+							<span class="tl_date">Avril 2025</span>
+							<span class="tl_dot"></span>
+							<li class="tl_elem">
+								<h4 class="tl_title">Enquêteur de satisfaction client à bord des trains</h4>
+								<span class="tl_place">SAMSIC EMPLOI • Pays de la Loire</span>
+								<p class="tl_desc">J'aurais préféré le faire dans le petit train touristique d'Angoulême
+								</p>
+							</li>
+						</section>
+						<section class="tl_section">
+							<span class="tl_date">Septembre 2025</span>
+							<span class="tl_dot"></span>
+							<li class="tl_elem">
+								<h4 class="tl_title">Enquêteur de satisfaction client à bord des trains</h4>
+								<span class="tl_place">SAMSIC EMPLOI • Pays de la Loire</span>
+								<p class="tl_desc">Et non je n'étais pas contrôleur</p>
+							</li>
+						</section>
+						<section class="tl_section">
+							<span class="tl_date">2022</span>
+							<span class="tl_dot"></span>
+							<li class="tl_elem">
+								<h4 class="tl_title">Stage d'observation</h4>
+								<span class="tl_place">Centre de Traitement Informatique de l'Assurance Maladie • Angers
+									(49)</span>
+								<p class="tl_desc">On m'a invité à manger un rougail saucisse là-bas</p>
+							</li>
+						</section>
+					</ul>
+				</section>
+				<section>
+					<h3>Tech Stack</h3>
+					<div class="comp">
+						<span class="pill_p">HTML</span>
+						<span class="pill_p">CSS</span>
+						<span class="pill_p">JavaScript</span>
+						<span class="pill_p">TypeScript</span>
+						<span class="pill_p">PHP</span>
+						<span class="pill_p">C</span>
+						<span class="pill_p">Python</span>
+						<span class="pill_p">Go</span>
+						<span class="pill_p">Dart</span>
+						<span class="pill_p">Linux</span>
+						<span class="pill_p">Flutter</span>
+						<span class="pill_p">Svelte</span>
+						<span class="pill_p">Flask</span>
+						<span class="pill_p">MySQL / MariaDB</span>
+						<span class="pill_p">SQLite</span>
+						<span class="pill_p">Git</span>
+						<span class="pill_p">Docker</span>
+						<span class="pill_p">Drizzle ORM</span>
+						<span class="pill_p">Bun</span>
+						<span class="pill_p">Figma</span>
+					</div>
+				</section>
+			</div>
+			<div id="part3" class="parts">
+				<section>
+					<h2>Me contacter</h2>
+					<div class="comp">
+						<span class="pill_g">nappert@student.42angouleme.fr</span>
+						<span class="pill_g">+33 7 63 70 20 10</span>
+						<span class="pill_g" style="cursor: pointer;"><a href="https://maps.app.goo.gl/wK88oHghowXUgTHL8" target="_blank">La Centrale, 08600 Chooz (bah ouai)</a></span>
+					</div>
+					<a class="button btn_3 iamabutton" target="_blank" href="https://youtu.be/eyaMGdYIdUQ&pp">je suis un bouton</a>
+				</section>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="footer_container">
+			<section>
+				<img onclick="window.open('https://42angouleme.fr', '_blank')" class="ft_logo"
+					src="./assets/img/logo_white.png" />
+				<p>Fait à l'occasion de la piscine discovery de juin 2026</p>
+				<a target="_blank" href="https://42angouleme.fr/" class="button btn_link">https://42angouleme.fr/</a>
+			</section>
+			<section>
+				<p class="expl">Interprétation du sujet Rush de la Piscine Discovery par nappert</p>
+			</section>
+		</div>
+	</footer>
+	<script lang="js" src="./script.js"></script>
+</body>
+
+</html>

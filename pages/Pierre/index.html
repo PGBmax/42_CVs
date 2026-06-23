@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pierre — CV · 42 Angoulême</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:ital,wght@0,700;1,400&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="assets/Logo.png" />
+  </head>
+  <body>
+
+    <nav class="site-navbar" id="navbar">
+      <div class="nav-brand">
+        <img src="assets/Logo.png" alt="Logo" class="nav-logo" />
+        <span>Pierre</span>
+      </div>
+      <div class="nav-links">
+        <a href="#profil" class="active">Profil</a>
+        <a href="#apropos">À propos</a>
+        <a href="#experiences">Expériences</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <a href="../../index.html" class="nav-back">
+        <i class="bi bi-arrow-left-short"></i><span>Hub</span>
+      </a>
+    </nav>
+
+    <section id="profil" class="section-profil">
+      <div class="profil-inner">
+
+        <div class="profil-photo-col">
+          <div class="photo-wrap">
+            <div class="photo-ring"></div>
+            <img src="assets/Pierre.png" alt="Pierre" class="profil-photo" />
+          </div>
+        </div>
+
+        <div class="profil-info-col">
+          <h1 class="profil-name">Pierre Boucher</h1>
+          <p class="profil-title">Étudiant à <span class="accent">42 Angoulême</span></p>
+
+          <div class="level-block">
+            <div class="level-header">
+              <span class="level-label">Niveau 42</span>
+              <span class="level-value">15.05 <span class="level-max">/ 21</span></span>
+            </div>
+            <div class="level-track">
+              <div class="level-fill" data-target="71.7"></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="scroll-hint">
+        <span>Scroll</span>
+        <i class="bi bi-chevron-down"></i>
+      </div>
+    </section>
+
+    <section id="apropos" class="section-apropos">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-12 col-md-7">
+            <h2 class="section-title">À propos</h2>
+            <div class="blabla-text">
+				<p>Yo ! Moi c'est <strong>Pierre</strong>, 19 ans, étudiant à <strong>42 Angoulême</strong> 🚀. Je sors du bac et ça fait presque deux ans que je suis dans cette école.
+				Pas de profs, pas de cours, juste des projets à rendre et du peer-learning. J'ai fini mon tronc commun mi-avril et je suis maintenant en spécialité <strong>cybersécurité</strong> 🔒.</p>
+				<p>J'ai découvert le code au collège en faisant des plugins Minecraft pour un serveur avec mon pote <a href="https://profile.intra.42.fr/users/mscheman" target="_blank" rel="noopener noreferrer" class="blabla-link">mscheman</a> 🐍. Ensuite, spécialité NSI au lycée (Python  principalement), et aujourd'hui à 42 j'ai découvert le bonheur, coder en <strong>C</strong> toute la nuit 🌙.</p>
+				<p>En dehors du code, je suis un grand passionné de <strong>dessin et de coloration</strong> — je fais des fan arts d'animés que je poste sur Instagram de temps en temps 🎨. Et pour finir, je suis fier d'être l'unique joueur de <strong>Raid Shadow Legends</strong> du campus d'Angoulême 🏆.</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-5 d-flex justify-content-center">
+            <div class="groove-wrap">
+              <img src="assets/PierreGroove.gif" alt="Pierre qui danse" class="groove-gif" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experiences" class="section-exp">
+      <div class="container">
+        <h2 class="section-title">Expériences <span class="accent">&amp;</span> Compétences</h2>
+
+        <div class="exp-block">
+          <p class="exp-subtitle">Compétences</p>
+          <div class="skills-list">
+            <span class="skill-tag">C</span>
+            <span class="skill-tag">C++</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">HTML</span>
+            <span class="skill-tag">CSS</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">Bash</span>
+          </div>
+        </div>
+
+        <div class="exp-block">
+          <p class="exp-subtitle">Projets 42</p>
+          <div class="row g-3">
+            <div class="col-12 col-sm-6 col-lg-4">
+              <a href="#" target="_blank" rel="noopener noreferrer" class="project-card">
+                <div class="project-name">libft</div>
+                <div class="project-desc">Réimplémentation de la libc standard en C</div>
+                <span class="project-lang">C</span>
+              </a>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+              <a href="#" target="_blank" rel="noopener noreferrer" class="project-card">
+                <div class="project-name">so_long</div>
+                <div class="project-desc">Petit jeu 2D avec la MiniLibX (Pacman)</div>
+                <span class="project-lang">C</span>
+              </a>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+              <a href="#" target="_blank" rel="noopener noreferrer" class="project-card">
+                <div class="project-name">cub3D</div>
+                <div class="project-desc">Moteur raycasting façon Wolfenstein 3D</div>
+                <span class="project-lang">C</span>
+              </a>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+              <a href="#" target="_blank" rel="noopener noreferrer" class="project-card">
+                <div class="project-name">ft_irc</div>
+                <div class="project-desc">Serveur IRC complet en C++98</div>
+                <span class="project-lang">C++</span>
+              </a>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+              <a href="#" target="_blank" rel="noopener noreferrer" class="project-card">
+                <div class="project-name">ft_transcendence</div>
+                <div class="project-desc">Clone de Discord</div>
+                <span class="project-lang">HTML/TS/REACT</span>
+              </a>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+              <a href="#" target="_blank" rel="noopener noreferrer" class="project-card">
+                <div class="project-name">War</div>
+                <div class="project-desc">Virus de la branche cybersecurite</div>
+                <span class="project-lang">C</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="exp-block">
+          <p class="exp-subtitle">Dessin &amp; Coloration</p>
+          <div class="gallery-header">
+            <p class="gallery-desc">Fan arts et colorations d'univers d'animés — retrouve toutes mes créations sur Instagram.</p>
+          </div>
+          <div id="instaCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#instaCarousel" data-bs-slide-to="0" class="active" aria-current="true"></button>
+              <button type="button" data-bs-target="#instaCarousel" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#instaCarousel" data-bs-slide-to="2"></button>
+              <button type="button" data-bs-target="#instaCarousel" data-bs-slide-to="3"></button>
+              <button type="button" data-bs-target="#instaCarousel" data-bs-slide-to="4"></button>
+              <button type="button" data-bs-target="#instaCarousel" data-bs-slide-to="5"></button>
+              <button type="button" data-bs-target="#instaCarousel" data-bs-slide-to="6"></button>
+              <button type="button" data-bs-target="#instaCarousel" data-bs-slide-to="7"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/instagram/CSM.png" class="carousel-img" alt="Chainsaw Man" />
+					<div class="carousel-caption-custom">Chainsaw Man</div>
+				</div>
+				<div class="carousel-item">
+					<img src="assets/instagram/CSM2.png" class="carousel-img" alt="Chainsaw Man 2" />
+					<div class="carousel-caption-custom">Chainsaw Man</div>
+				</div>
+				<div class="carousel-item">
+					<img src="assets/instagram/CSM3.png" class="carousel-img" alt="Chainsaw Man 3" />
+					<div class="carousel-caption-custom">Chainsaw Man</div>
+				</div>
+				<div class="carousel-item">
+					<img src="assets/instagram/CSM4.png" class="carousel-img" alt="Chainsaw Man 4" />
+					<div class="carousel-caption-custom">Chainsaw Man</div>
+				</div>
+				<div class="carousel-item">
+					<img src="assets/instagram/Eremika.png" class="carousel-img" alt="Eremika" />
+					<div class="carousel-caption-custom">Attack on Titan</div>
+				</div>
+				<div class="carousel-item">
+					<img src="assets/instagram/SNK.png" class="carousel-img" alt="Shingeki no Kyojin" />
+					<div class="carousel-caption-custom">Attack on Titan</div>
+				</div>
+				<div class="carousel-item">
+					<img src="assets/instagram/INAZUMA.png" class="carousel-img" alt="Inazuma" />
+					<div class="carousel-caption-custom">Inazuma Eleven</div>
+				</div>
+				<div class="carousel-item">
+					<img src="assets/instagram/JJK.png" class="carousel-img" alt="Jujutsu Kaisen" />
+					<div class="carousel-caption-custom">Jujutsu Kaisen</div>
+				</div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#instaCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Précédent</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#instaCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Suivant</span>
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="contact" class="section-contact">
+      <div class="container">
+        <h2 class="section-title">Me Contacter</h2>
+
+        <div class="contact-info-grid">
+          <div class="contact-info-card">
+            <i class="bi bi-envelope-fill contact-info-icon"></i>
+            <div class="contact-info-text">
+              <span class="contact-info-label">Email</span>
+              <span class="contact-info-value">pboucher@student.42angouleme.fr</span>
+            </div>
+          </div>
+          <div class="contact-info-card">
+            <i class="bi bi-telephone-fill contact-info-icon"></i>
+            <div class="contact-info-text">
+              <span class="contact-info-label">Téléphone</span>
+              <span class="contact-info-value">+33 6 67 67 67 67</span>
+            </div>
+          </div>
+        </div>
+
+        <p class="contact-divider">Réseaux</p>
+
+        <div class="contact-social-grid">
+          <button class="contact-card" id="discordCopy" data-username="pgbmax">
+            <i class="bi bi-discord contact-icon"></i>
+            <span class="contact-label">Discord</span>
+            <span class="contact-hint">Cliquer pour copier</span>
+          </button>
+          <a href="https://www.instagram.com/levi_colo/" target="_blank" rel="noopener noreferrer" class="contact-card">
+            <i class="bi bi-instagram contact-icon"></i>
+            <span class="contact-label">Instagram</span>
+          </a>
+          <a href="https://www.youtube.com/@pgbmax" target="_blank" rel="noopener noreferrer" class="contact-card">
+            <i class="bi bi-youtube contact-icon"></i>
+            <span class="contact-label">YouTube</span>
+          </a>
+          <a href="https://www.twitch.tv/pg_banania" target="_blank" rel="noopener noreferrer" class="contact-card">
+            <i class="bi bi-twitch contact-icon"></i>
+            <span class="contact-label">Twitch</span>
+          </a>
+          <a href="https://github.com/PGBmax" target="_blank" rel="noopener noreferrer" class="contact-card">
+            <i class="bi bi-github contact-icon"></i>
+            <span class="contact-label">GitHub</span>
+          </a>
+          <a href="https://x.com/PGBmax" target="_blank" rel="noopener noreferrer" class="contact-card">
+            <i class="bi bi-twitter-x contact-icon"></i>
+            <span class="contact-label">Twitter / X</span>
+          </a>
+          <a href="https://www.linkedin.com/in/pierre-boucher-65401b375/" target="_blank" rel="noopener noreferrer" class="contact-card">
+            <i class="bi bi-linkedin contact-icon"></i>
+            <span class="contact-label">LinkedIn</span>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <div class="copied-toast" id="copiedToast">Discord copié !</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
