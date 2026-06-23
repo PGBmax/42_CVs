@@ -1,0 +1,107 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	/* font-family: system-ui, -apple-system, sans-serif; */
+	font-family: "Momo Trust Display", sans-serif !important;
+	font-weight: 400;
+	font-style: normal;
+	background-color: rgb(43, 43, 43) !important;
+	color: rgb(182, 182, 182) !important;
+}
+
+header {
+	padding: 40px;
+	background: dimgray;
+	text-align: center;
+}
+
+nav {
+	position: sticky;
+	top: 0;
+	z-index: 100;
+	background-color: rgb(43, 43, 43);
+}
+
+nav ul {
+	display: flex;
+	justify-content: center;
+	gap: 2.5em;
+}
+
+nav ul a {
+	color: rgb(255, 255, 255);
+	padding: 14px 20px;
+	text-decoration: none;
+	text-align: center;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+section {
+	padding: 30px;
+}
+
+.myprofile {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.carousel-text {
+	text-align: left;
+}
+
+.experience-row {
+	display: grid;
+	grid-template-columns: 1fr 1px 1fr;
+}
+
+hr {
+
+	margin: 30px 30px !important;
+}
+
+.carousel-inner {
+  height: 400px;
+}
+
+.carousel-inner img {
+  height: 100%;
+  object-fit: contain;
+}
+
+.socials {
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+	align-items: center;
+	padding: 50px 0 100px 0;
+}
+
+.filter {
+	filter: brightness(0) saturate(100%) invert(82%) sepia(6%) saturate(7%) hue-rotate(22deg) brightness(90%) contrast(85%);
+}
+
+.socialicons {
+	display: flex;
+	flex-direction: row;
+	gap: 80px;
+}
+
+.socialicons a {
+    transition: color 0.2s ease, filter 0.2s ease;
+}
+
+.socialicons a:hover {
+    color: white !important;
+}
+
+.socialicons a:hover .filter {
+    filter: brightness(0) saturate(100%) invert(100%);
+}
